@@ -1,0 +1,137 @@
+{
+  "uuid": "16b7ed76e5fe195a569e1b579993bcea",
+  "path": "Offline/NoiseGen2",
+  "name": "NoiseGen2",
+  "content": "",
+  "created_at": "2023-06-15 21:26:41",
+  "updated_at": "2023-06-16 17:11:39",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a2113ea55b47c7f1e04a2b1da1718abc",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f83d8ca40ab148edb3e138cbeb832234": 1,
+        "fcaba4851eda4ca19d4326a668633a30": 2,
+        "bb009484ef804a24ac5d18c54b249586": 4,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "4e5e5775fd634dd48141eafc77c26e7a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "2N3904(SOT-23)",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KEC",
+            "BOM_Manufacturer Part": "2n3904S-RTK/PS",
+            "BOM_Supplier Part": "C18536",
+            "BOM_Paste Type": "SOT-23",
+            "puuid": "4a81c52f384a4e1ba3f57a3703e0f5f9",
+            "uuid": "4e5e5775fd634dd48141eafc77c26e7a"
+          }
+        ],
+        [
+          "1k",
+          4,
+          "R0603",
+          "R1,R2,R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "R_3386P_EU",
+          2,
+          "RHEOSTAT",
+          "RP1,RP2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "5d9e7dc7cf5d4f8284295396e390965c",
+            "uuid": "fcaba4851eda4ca19d4326a668633a30"
+          }
+        ],
+        [
+          "LM358_C5157924",
+          1,
+          "DIP-8_L9.8-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C5157924",
+            "BOM_Manufacturer": "Gcore(扬州国芯)",
+            "BOM_Manufacturer Part": "LM358",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "362c454bbef64c01973ed19e3cf6ef06",
+            "uuid": "f83d8ca40ab148edb3e138cbeb832234"
+          }
+        ]
+      ],
+      "updateTime": 1686854734,
+      "createTime": 1686853602,
+      "histories": [],
+      "created_at": "2023-06-15 21:26:42",
+      "updated_at": "2023-06-15 21:45:34"
+    },
+    {
+      "uuid": "3cd945a9da34f7f8f345a7f1a6213186",
+      "puuid": "16b7ed76e5fe195a569e1b579993bcea",
+      "title": "PCB_NoiseGen2",
+      "filename": "PCB_NoiseGen2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "4a81c52f384a4e1ba3f57a3703e0f5f9": 1,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "5d9e7dc7cf5d4f8284295396e390965c": 2,
+        "362c454bbef64c01973ed19e3cf6ef06": 1
+      },
+      "BOM": [],
+      "updateTime": 1686924699,
+      "createTime": 1686855330,
+      "histories": [],
+      "created_at": "2023-06-15 21:55:30",
+      "updated_at": "2023-06-16 17:11:39"
+    }
+  ],
+  "sort": [],
+  "title": "NoiseGen2",
+  "foldername": "NoiseGen2",
+  "schfilename": "NoiseGen2.json",
+  "schfilemtime": 1686854734025
+}
